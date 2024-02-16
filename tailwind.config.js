@@ -4,6 +4,13 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
@@ -17,12 +24,12 @@ module.exports = {
       serif: 'Times, serif'
     },
     extend: {
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
-        }
-      },
+      // keyframes: {
+      //   fadeIn: {
+      //     '0%': { opacity: 0 },
+      //     '100%': { opacity: 1 },
+      //   }
+      // },
       colors: {
         red: 'red',
       }
